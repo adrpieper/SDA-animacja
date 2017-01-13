@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.setCustomAnimations(R.animator.anim_in,R.animator.anim_out);
                 transaction.replace(R.id.empty_frame, new FirstFragment());
                 transaction.commit();
             }
@@ -26,6 +27,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.setCustomAnimations(R.animator.anim_in,R.animator.anim_out);
                 transaction.replace(R.id.empty_frame, new SecondFragment());
                 transaction.commit();
             }

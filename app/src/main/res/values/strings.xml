@@ -2,5 +2,6 @@
     <string name="app_name">AnimExample</string>
     <string name="fragment_one">Fragment Pierwszy</string>
     <string name="fragment_two">Fragment Drugi</string>
+    <string name="first_fragment_text">Pierwszy Fragment</string>
     <string name="second_fragment_text">Drugi Fragment</string>
 </resources>
